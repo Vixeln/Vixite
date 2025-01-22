@@ -1,19 +1,18 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import VesmosApp from './components/VesmosApp.vue';
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
+    <hgroup>
+      <h1>Vixite</h1>
+      <p>Vireak's Vue Vebsite</p>
+    </hgroup>
   </header>
 
   <main>
-    <TheWelcome />
+    <!-- <TheWelcome /> -->
+    <VesmosApp></VesmosApp>
   </main>
 </template>
 
@@ -38,7 +37,7 @@ header {
     margin: 0 2rem 0 0;
   }
 
-  header .wrapper {
+  header {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;

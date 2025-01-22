@@ -1,0 +1,585 @@
+{
+  "version": 11,
+  "randomSeed": "de4533a656c573b603437a497ad5a211",
+  "graph": {
+    "viewport": {
+      "xmin": -10.000000000000002,
+      "ymin": -22.65924551638838,
+      "xmax": 10.000000000000002,
+      "ymax": 22.795299938157086
+    },
+    "showGrid": false,
+    "showXAxis": false,
+    "showYAxis": false
+  },
+  "expressions": {
+    "list": [
+      { "type": "folder", "id": "50", "title": "Controls" },
+      { "type": "text", "id": "264", "folderId": "50", "text": "Restart" },
+      {
+        "type": "expression",
+        "id": "33",
+        "folderId": "50",
+        "color": "#388c46",
+        "latex": "a_{2}\\to-r_{1},b_{2}\\to0,v_{x}\\to0,v_{y}\\to0,t_{time}\\to0,m_{em}\\to\\left[\\right]"
+      },
+      {
+        "type": "text",
+        "id": "265",
+        "folderId": "50",
+        "text": "Restart At Equilibrium Point"
+      },
+      {
+        "type": "expression",
+        "id": "53",
+        "folderId": "50",
+        "color": "#388c46",
+        "latex": "a_{2}\\to0,b_{2}\\to-1,v_{x}\\to0,v_{y}\\to0,t_{time}\\to0,m_{em}\\to\\left[\\right]"
+      },
+      {
+        "type": "text",
+        "id": "266",
+        "folderId": "50",
+        "text": "Set Velocity To 0"
+      },
+      {
+        "type": "expression",
+        "id": "34",
+        "folderId": "50",
+        "color": "#6042a6",
+        "latex": "v_{x}\\to0,v_{y}\\to0",
+        "labelSize": "1"
+      },
+      {
+        "type": "text",
+        "id": "267",
+        "folderId": "50",
+        "text": "Set Gravity to 0"
+      },
+      {
+        "type": "expression",
+        "id": "51",
+        "folderId": "50",
+        "color": "#c74440",
+        "latex": "g\\to0"
+      },
+      { "type": "text", "id": "270", "folderId": "50", "text": "Reset Graph" },
+      {
+        "type": "expression",
+        "id": "88",
+        "folderId": "50",
+        "color": "#2d70b3",
+        "latex": "m_{em}\\to\\left[\\right]"
+      },
+      { "type": "text", "id": "261", "folderId": "50", "text": "Gravity" },
+      {
+        "type": "expression",
+        "id": "25",
+        "folderId": "50",
+        "color": "#000000",
+        "latex": "g=-12",
+        "slider": {
+          "hardMin": true,
+          "hardMax": true,
+          "min": "-15",
+          "max": "15"
+        }
+      },
+      { "type": "text", "id": "268", "folderId": "50", "text": "Tick Forward" },
+      {
+        "type": "expression",
+        "id": "32",
+        "folderId": "50",
+        "color": "#2d70b3",
+        "latex": "t_{main}=t_{vx},t_{vy},t_{x},t_{y},s_{ave},v_{x1}\\to0,v_{y1}\\to0"
+      },
+      {
+        "type": "folder",
+        "id": "271",
+        "title": "Pendulum Configurations",
+        "collapsed": true
+      },
+      { "type": "text", "id": "259", "folderId": "271", "text": "Rod Length" },
+      {
+        "type": "expression",
+        "id": "37",
+        "folderId": "271",
+        "color": "#2d70b3",
+        "latex": "r_{1}=5",
+        "labelSize": "1",
+        "slider": { "hardMin": true, "playDirection": -1, "min": "0.0001" }
+      },
+      {
+        "type": "text",
+        "id": "263",
+        "folderId": "271",
+        "text": "Rigidness (Low values becomes unstable)"
+      },
+      {
+        "type": "expression",
+        "id": "54",
+        "folderId": "271",
+        "color": "#2d70b3",
+        "latex": "v_{dfrmspd}=5.1",
+        "slider": { "hardMin": true, "min": "0" }
+      },
+      {
+        "type": "text",
+        "id": "262",
+        "folderId": "271",
+        "text": "Frictionless Coefficient"
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "folderId": "271",
+        "color": "#2d70b3",
+        "latex": "v_{k}=1",
+        "hidden": true,
+        "slider": {
+          "hardMin": true,
+          "hardMax": true,
+          "playDirection": -1,
+          "min": "0",
+          "max": "1.005"
+        }
+      },
+      {
+        "type": "folder",
+        "id": "49",
+        "title": "Technical Jargon",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "folderId": "49",
+        "color": "#6042a6",
+        "latex": "t_{time}=1103.023",
+        "hidden": true,
+        "slider": { "hardMin": true, "min": "0", "max": "1238" }
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "folderId": "49",
+        "color": "#388c46",
+        "latex": "t_{tick}\\left(t\\right)=t_{time}\\to t_{time}+\\frac{t}{1000}"
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "folderId": "49",
+        "color": "#388c46",
+        "latex": "a_{1}=0.85",
+        "hidden": true,
+        "slider": { "max": "16.96" }
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "folderId": "49",
+        "color": "#6042a6",
+        "latex": "b_{1}=5.72",
+        "hidden": true,
+        "slider": { "max": "11.23" }
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "folderId": "49",
+        "color": "#000000",
+        "latex": "a_{2}=-3.419194385061007",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "11",
+        "folderId": "49",
+        "color": "#c74440",
+        "latex": "b_{2}=-3.6417889679577216",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "22",
+        "folderId": "49",
+        "color": "#2d70b3",
+        "latex": "a_{x}=1",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "23",
+        "folderId": "49",
+        "color": "#388c46",
+        "latex": "a_{y}=1",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "folderId": "49",
+        "color": "#6042a6",
+        "latex": "m=0.2"
+      },
+      {
+        "type": "expression",
+        "id": "15",
+        "folderId": "49",
+        "color": "#000000",
+        "latex": "v_{x}=-0.16620695784592082"
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "folderId": "49",
+        "color": "#c74440",
+        "latex": "v_{y}=0.46311328406153535"
+      },
+      {
+        "type": "expression",
+        "id": "26",
+        "folderId": "49",
+        "color": "#c74440",
+        "latex": "d_{t}=0.019",
+        "hidden": true,
+        "slider": { "max": "52" }
+      },
+      {
+        "type": "expression",
+        "id": "46",
+        "folderId": "49",
+        "color": "#388c46",
+        "latex": "v_{flx}=6",
+        "hidden": true,
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "6" }
+      },
+      {
+        "type": "folder",
+        "id": "55",
+        "title": "Technical Jargon",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "1",
+        "folderId": "55",
+        "color": "#c74440",
+        "latex": "f_{2pnts}\\left(x_{1},y_{1},x_{2},y_{2}\\right)=\\left[\\left(x_{1},y_{1}\\right),\\left(x_{2},y_{2}\\right)\\right]",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "40",
+        "folderId": "55",
+        "color": "#000000",
+        "latex": "\\left(d_{dst}-r_{1}\\right)\\sin\\left(a_{angle}\\right)d_{t}"
+      },
+      {
+        "type": "expression",
+        "id": "41",
+        "folderId": "55",
+        "color": "#c74440",
+        "latex": "v_{y}+\\frac{g}{d_{t}}-v_{flx}\\frac{g}{d_{t}\\sin\\left(a_{angle}\\right)}\\sin\\left(a_{angle}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "3",
+        "folderId": "55",
+        "color": "#388c46",
+        "latex": "f_{2pnts}\\left(a_{1},b_{1},a_{2}+a_{1},b_{2}+b_{1}\\right)",
+        "points": false,
+        "lines": true,
+        "dragMode": "NONE"
+      },
+      {
+        "type": "expression",
+        "id": "2",
+        "folderId": "55",
+        "color": "#2d70b3",
+        "latex": "\\left(a_{1},b_{1}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "folderId": "55",
+        "color": "#fa7e19",
+        "latex": "\\left(a_{1}+a_{2},b_{1}+b_{2}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "18",
+        "folderId": "55",
+        "color": "#c74440",
+        "latex": "f_{2pnts}\\left(a_{2}+a_{1},b_{2}+b_{1},a_{1}+a_{2}+v_{x},b_{1}+b_{2}+v_{y}\\right)",
+        "points": false,
+        "lines": true,
+        "dragMode": "NONE",
+        "lineOpacity": "0.5"
+      },
+      {
+        "type": "expression",
+        "id": "17",
+        "folderId": "55",
+        "color": "#c74440",
+        "latex": "\\left(a_{1}+a_{2}+v_{x},b_{1}+b_{2}+v_{y}\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "28",
+        "folderId": "55",
+        "color": "#388c46",
+        "latex": "t_{x}=a_{2}\\to a_{2}+v_{x}d_{t}+v_{dfrmspd}\\left(d_{dst}-r_{1}\\right)\\cos\\left(a_{angle}\\right)10d_{t}"
+      },
+      {
+        "type": "expression",
+        "id": "29",
+        "folderId": "55",
+        "color": "#6042a6",
+        "latex": "t_{y}=b_{2}\\to b_{2}+v_{y}d_{t}+v_{dfrmspd}\\left(d_{dst}-r_{1}\\right)\\sin\\left(a_{angle}\\right)10d_{t}"
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "folderId": "55",
+        "color": "#000000",
+        "latex": "t_{vx}=v_{x}\\to v_{x1}+\\left(v_{k}v_{x}-gd_{t}\\cos\\left(a_{angle}\\right)+\\left(d_{dst}-r_{1}\\right)\\cos\\left(a_{angle}\\right)d_{t}+\\left(v_{flx}+v_{dfrmspd}\\right)\\left(d_{dst}-r_{1}\\right)\\cos\\left(a_{angle}\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "21",
+        "folderId": "55",
+        "color": "#c74440",
+        "latex": "t_{vy}=v_{y}\\to v_{y1}+\\left(v_{k}v_{y}+gd_{t}-gd_{t}\\sin\\left(a_{angle}\\right)+\\left(v_{flx}+v_{dfrmspd}\\right)\\left(d_{dst}-r_{1}\\right)\\sin\\left(a_{angle}\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "folderId": "55",
+        "color": "#6042a6",
+        "latex": "a_{angle}=\\arctan\\left(-b_{2},-a_{2}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "27",
+        "folderId": "55",
+        "color": "#2d70b3",
+        "latex": "\\frac{g}{d_{t}}\\sin\\left(a_{angle}\\right)-\\frac{g}{d_{t}}"
+      },
+      {
+        "type": "expression",
+        "id": "35",
+        "folderId": "55",
+        "color": "#000000",
+        "latex": "v_{y}"
+      },
+      {
+        "type": "expression",
+        "id": "36",
+        "folderId": "55",
+        "color": "#c74440",
+        "latex": "v_{y}+\\frac{g}{d_{t}}+\\frac{g}{d_{t}}\\sin\\left(a_{angle}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "38",
+        "folderId": "55",
+        "color": "#388c46",
+        "latex": "d_{dst}=\\operatorname{distance}\\left(\\left(0,0\\right),\\left(a_{2},b_{2}\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "39",
+        "folderId": "55",
+        "color": "#6042a6",
+        "latex": "\\left(d_{dst}-r_{1}\\right)\\sin\\left(a_{angle}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "43",
+        "folderId": "55",
+        "color": "#388c46",
+        "latex": "\\operatorname{distance}\\left(\\left(0,0\\right),\\left(v_{x},v_{y}\\right)\\right)",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "44",
+        "folderId": "55",
+        "color": "#c74440",
+        "latex": "t_{time}",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "52",
+        "folderId": "55",
+        "color": "#6042a6",
+        "latex": "\\left(a_{2}+a_{1},-1-r_{1}+b_{1}\\right)",
+        "hidden": true,
+        "pointOpacity": "0.9"
+      },
+      {
+        "type": "expression",
+        "id": "116",
+        "folderId": "55",
+        "color": "#c74440",
+        "latex": "\\left(a_{1}+v_{x1},+b_{1}+1+v_{y1}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "117",
+        "folderId": "55",
+        "color": "#2d70b3",
+        "latex": "v_{x1}=0",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "118",
+        "folderId": "55",
+        "color": "#388c46",
+        "latex": "v_{y1}=0",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "119",
+        "folderId": "55",
+        "color": "#6042a6",
+        "latex": "c_{olor}=\\operatorname{hsv}\\left(90\\cdot\\left[0...3\\right],1,1\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "64",
+        "folderId": "55",
+        "color": "#000000",
+        "latex": "\\operatorname{polygon}\\left(\\left(1,1\\right),\\left(-1,1\\right),\\left(-1,-1\\right),\\left(1,-1\\right)\\right)",
+        "lines": true,
+        "labelSize": "1",
+        "clickableInfo": {
+          "enabled": true,
+          "latex": "r_{unTicker}\\to\\operatorname{mod}\\left(r_{unTicker}+1,2\\right)"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "273",
+        "folderId": "55",
+        "color": "#000000",
+        "latex": "\\left(0,1\\right)",
+        "showLabel": true,
+        "label": "Pause / Unpause",
+        "hidden": true,
+        "labelSize": "1",
+        "labelOrientation": "above"
+      },
+      {
+        "type": "expression",
+        "id": "272",
+        "folderId": "55",
+        "color": "#c74440",
+        "latex": "r_{unTicker}=0"
+      },
+      {
+        "type": "folder",
+        "id": "122",
+        "title": "Graph Renderer",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "89",
+        "folderId": "122",
+        "color": "#388c46",
+        "latex": "s_{ave}=\\left\\{\\left\\{\\operatorname{length}\\left(m_{em}\\right)\\ge0\\right\\}\\left\\{\\operatorname{length}\\left(m_{em}\\right)\\le m_{emcap}\\right\\}\\left\\{c_{ounter}=0\\right\\}=1:m_{em}\\to\\operatorname{join}\\left(m_{em},\\left[\\frac{\\operatorname{floor}\\left(\\left(a_{2}+a_{1}\\right)\\cdot10^{m_{emdgts}}\\right)}{10^{m_{emdgts}}}\\right]\\right)\\right\\},\\left\\{\\left\\{\\operatorname{length}\\left(m_{em}\\right)\\ge0\\right\\}\\left\\{\\operatorname{length}\\left(m_{em}\\right)<m_{emcap}\\right\\}=1:c_{ounter}\\to\\operatorname{mod}\\left(c_{ounter}+1,c_{ountamnt}\\right)\\right\\},\\left\\{\\operatorname{length}\\left(m_{em}\\right)\\ge m_{emcap}:o_{vrwrt}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "111",
+        "folderId": "122",
+        "color": "#c74440",
+        "latex": "o_{vrwrt}=m_{em}\\to\\sum_{n=\\left[2...\\left(\\operatorname{length}\\left(m_{em}\\right)\\right)\\right]}^{\\left[2...\\left(\\operatorname{length}\\left(m_{em}\\right)\\right)\\right]}m_{em}\\left[n\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "101",
+        "folderId": "122",
+        "color": "#000000",
+        "latex": "m_{emcap}=45",
+        "labelSize": "1",
+        "slider": { "max": "125" }
+      },
+      {
+        "type": "expression",
+        "id": "92",
+        "folderId": "122",
+        "color": "#c74440",
+        "latex": "c_{ounter}=1",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "93",
+        "folderId": "122",
+        "color": "#2d70b3",
+        "latex": "c_{ountamnt}=2",
+        "slider": {
+          "hardMin": true,
+          "hardMax": true,
+          "min": "2",
+          "max": "30",
+          "step": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "110",
+        "folderId": "122",
+        "color": "#6042a6",
+        "latex": "r_{ichterspd}=1.83"
+      },
+      {
+        "type": "expression",
+        "id": "90",
+        "folderId": "122",
+        "color": "#6042a6",
+        "latex": "m_{emdgts}=7",
+        "slider": {
+          "hardMin": true,
+          "hardMax": true,
+          "min": "0",
+          "max": "8",
+          "step": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "87",
+        "folderId": "122",
+        "color": "#c74440",
+        "latex": "m_{em}=\\left[3.9752632,4.0572767,4.1335754,4.1963434,4.2645903,4.2832858,4.2908408,4.2836444,4.2548487,4.2093814,4.1134799,4.0154022,3.886111,3.7564316,3.5803151,3.3949963,3.1565233,2.9285563,2.579228,2.2964918,1.9770193,1.7147089,1.4343761,1.1834789,0.9190718,0.6487829,0.346486,0.0333176,-0.2485263,-0.4833115,-0.7183975,-1.0210246,-1.2221486,-1.409536,-1.5721556,-1.7393455,-1.9394438,-2.0565886,-2.2271273,-2.3207438,-2.397832,-2.4585516,-2.5221741,-2.55671\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "91",
+        "folderId": "122",
+        "color": "#000000",
+        "latex": "\\left(m_{em},b_{1}-r_{1}-1+\\left[0,\\left(\\frac{r_{ichterspd}c_{ountamnt}}{20}\\right)...\\left(\\operatorname{length}\\left(m_{em}\\right)-1\\right)\\left(\\frac{r_{ichterspd}c_{ountamnt}}{20}\\right)\\right]-\\left(\\operatorname{length}\\left(m_{em}\\right)-1\\right)\\left(\\frac{r_{ichterspd}c_{ountamnt}}{20}\\right)\\right)",
+        "points": false,
+        "lines": true,
+        "dragMode": "NONE",
+        "labelSize": "1"
+      }
+    ],
+    "ticker": {
+      "handlerLatex": "\\left\\{r_{unTicker}=1:\\left(t_{main},d_{t}\\to\\frac{\\operatorname{dt}}{1000}\\right)\\right\\},t_{tick}\\left(\\operatorname{dt}\\right)",
+      "minStepLatex": "20",
+      "playing": true,
+      "open": true
+    }
+  },
+  "includeFunctionParametersInRandomSeed": true
+}

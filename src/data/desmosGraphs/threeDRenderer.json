@@ -1,0 +1,1237 @@
+{
+  "version": 11,
+  "randomSeed": "aeba388300f047837811135484623341",
+  "graph": {
+    "viewport": {
+      "xmin": -41.18574327914174,
+      "ymin": -77.43980349612968,
+      "xmax": 44.50314828223885,
+      "ymax": 117.30767732518984
+    },
+    "showGrid": false,
+    "showXAxis": false,
+    "showYAxis": false,
+    "userLockedViewport": true
+  },
+  "expressions": {
+    "list": [
+      { "type": "folder", "id": "192", "title": "window", "collapsed": true },
+      {
+        "type": "expression",
+        "id": "1",
+        "folderId": "192",
+        "color": "#c74440",
+        "latex": "s_{crnx1}=-9.5",
+        "slider": { "min": "-277", "max": "273" }
+      },
+      {
+        "type": "expression",
+        "id": "186",
+        "folderId": "192",
+        "color": "#388c46",
+        "latex": "s_{crny1}=40.1",
+        "slider": { "max": "900" }
+      },
+      {
+        "type": "expression",
+        "id": "185",
+        "folderId": "192",
+        "color": "#2d70b3",
+        "latex": "s_{crnx2}=22.9",
+        "slider": { "hardMin": true, "min": "0", "max": "718" }
+      },
+      {
+        "type": "expression",
+        "id": "187",
+        "folderId": "192",
+        "color": "#6042a6",
+        "latex": "s_{crny2}=11.9",
+        "slider": { "hardMin": true, "min": "0", "max": "566" }
+      },
+      {
+        "type": "expression",
+        "id": "188",
+        "folderId": "192",
+        "color": "#000000",
+        "latex": "\\left(s_{crnx1},s_{crny1}\\right)",
+        "showLabel": true,
+        "label": "Imaginary Window",
+        "labelOrientation": "above"
+      },
+      {
+        "type": "expression",
+        "id": "189",
+        "folderId": "192",
+        "color": "#c74440",
+        "latex": "\\left(s_{crnx1}+s_{crnx2},s_{crny1}-s_{crny2}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "190",
+        "folderId": "192",
+        "color": "#2d70b3",
+        "latex": "w_{in}\\left(w_{crnx1},w_{crny1},w_{crnx2},w_{crny2}\\right)=\\left[\\left(w_{crnx1},w_{crny1}\\right),\\left(w_{crnx1}+w_{crnx2},w_{crny1}\\right),\\left(w_{crnx2}+w_{crnx1},w_{crny1}-w_{crny2}\\right),\\left(w_{crnx1},w_{crny1}-w_{crny2}\\right),\\left(w_{crnx1},w_{crny1}\\right)\\right]",
+        "points": false,
+        "lines": true,
+        "dragMode": "NONE",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "199",
+        "folderId": "192",
+        "color": "#2d70b3",
+        "latex": "w_{in}\\left(s_{crnx1},s_{crny1},s_{crnx2},s_{crny2}\\right)",
+        "points": false,
+        "lines": true,
+        "dragMode": "NONE",
+        "labelOrientation": "above"
+      },
+      { "type": "expression", "id": "200", "folderId": "192", "color": "#c74440" },
+      { "type": "folder", "id": "206", "title": "navr", "collapsed": true },
+      {
+        "type": "expression",
+        "id": "201",
+        "folderId": "206",
+        "color": "#c74440",
+        "latex": "w_{in}\\left(n_{avx1},n_{avy1},n_{avx2},n_{avy2}\\right)",
+        "points": false,
+        "lines": true,
+        "dragMode": "NONE",
+        "clickableInfo": { "enabled": true, "latex": "c_{amx}\\to0.5,c_{amy}\\to0.5" }
+      },
+      {
+        "type": "expression",
+        "id": "207",
+        "folderId": "206",
+        "color": "#2d70b3",
+        "latex": "\\left(n_{avx1},n_{avy1}\\right)",
+        "showLabel": true,
+        "label": "Rotation",
+        "labelOrientation": "above"
+      },
+      {
+        "type": "expression",
+        "id": "208",
+        "folderId": "206",
+        "color": "#388c46",
+        "latex": "\\left(n_{avx1}+n_{avx2},n_{avy1}-n_{avy2}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "202",
+        "folderId": "206",
+        "color": "#388c46",
+        "latex": "n_{avx1}=-3.63",
+        "hidden": true,
+        "slider": { "max": "721" }
+      },
+      {
+        "type": "expression",
+        "id": "203",
+        "folderId": "206",
+        "color": "#6042a6",
+        "latex": "n_{avy1}=12.45",
+        "hidden": true,
+        "slider": { "min": "-344", "max": "334" }
+      },
+      {
+        "type": "expression",
+        "id": "204",
+        "folderId": "206",
+        "color": "#000000",
+        "latex": "n_{avx2}=44.1",
+        "hidden": true,
+        "slider": { "hardMin": true, "min": "0", "max": "783" }
+      },
+      {
+        "type": "expression",
+        "id": "205",
+        "folderId": "206",
+        "color": "#c74440",
+        "latex": "n_{avy2}=10.06",
+        "hidden": true,
+        "slider": { "hardMin": true, "min": "0", "max": "481" }
+      },
+      {
+        "type": "expression",
+        "id": "198",
+        "folderId": "206",
+        "color": "#6042a6",
+        "latex": "\\left(n_{avx1}+n_{avx2}c_{amx},n_{avy1}-n_{avy2}c_{amy}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "209",
+        "folderId": "206",
+        "color": "#6042a6",
+        "latex": "c_{amx}=0.553",
+        "hidden": true,
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "1" }
+      },
+      {
+        "type": "expression",
+        "id": "210",
+        "folderId": "206",
+        "color": "#000000",
+        "latex": "c_{amy}=0.536",
+        "hidden": true,
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "1" }
+      },
+      { "type": "folder", "id": "273", "title": "navt", "collapsed": true },
+      {
+        "type": "expression",
+        "id": "274",
+        "folderId": "273",
+        "color": "#c74440",
+        "latex": "w_{in}\\left(n_{avtx1},n_{avty1},n_{avtx2},n_{avty2}\\right)",
+        "points": false,
+        "lines": true,
+        "dragMode": "NONE",
+        "clickableInfo": {
+          "enabled": true,
+          "latex": "c_{amtx}\\to0.5,c_{amty}\\to0.5,c_{amtz}\\to0.5"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "275",
+        "folderId": "273",
+        "color": "#2d70b3",
+        "latex": "\\left(n_{avtx1},n_{avty1}\\right)",
+        "showLabel": true,
+        "label": "Position",
+        "labelOrientation": "above"
+      },
+      {
+        "type": "expression",
+        "id": "276",
+        "folderId": "273",
+        "color": "#388c46",
+        "latex": "\\left(n_{avtx1}+n_{avtx2},n_{avty1}-n_{avty2}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "277",
+        "folderId": "273",
+        "color": "#388c46",
+        "latex": "n_{avtx1}=-29.9",
+        "hidden": true,
+        "slider": { "min": "-221", "max": "721" }
+      },
+      {
+        "type": "expression",
+        "id": "278",
+        "folderId": "273",
+        "color": "#6042a6",
+        "latex": "n_{avty1}=15.4",
+        "hidden": true,
+        "slider": { "min": "-344", "max": "289" }
+      },
+      {
+        "type": "expression",
+        "id": "279",
+        "folderId": "273",
+        "color": "#000000",
+        "latex": "n_{avtx2}=18.15",
+        "hidden": true,
+        "slider": { "hardMin": true, "min": "0", "max": "723" }
+      },
+      {
+        "type": "expression",
+        "id": "280",
+        "folderId": "273",
+        "color": "#c74440",
+        "latex": "n_{avty2}=15.8",
+        "hidden": true,
+        "slider": { "hardMin": true, "min": "0", "max": "456" }
+      },
+      {
+        "type": "expression",
+        "id": "281",
+        "folderId": "273",
+        "color": "#6042a6",
+        "latex": "\\left(n_{avtx1}+n_{avtx2}c_{amtx},n_{avty1}-n_{avty2}c_{amty}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "349",
+        "folderId": "273",
+        "color": "#6042a6",
+        "latex": "\\left(n_{avtx1}+1.1n_{avtx2},n_{avty1}-n_{avty2}c_{amtz}\\right)",
+        "dragMode": "Y"
+      },
+      {
+        "type": "expression",
+        "id": "379",
+        "folderId": "273",
+        "color": "#2d70b3",
+        "latex": "\\left[\\left(n_{avtx1}+n_{avtx2}c_{amtx},n_{avty1}-n_{avty2}c_{amty}\\right),\\left(0.5\\sin\\left(r_{y}\\right)n_{avtx2}+n_{avtx1}+n_{avtx2}c_{amtx},0.5\\cos\\left(r_{y}\\right)n_{avtx2}+n_{avty1}-n_{avty2}c_{amty}\\right)\\right]",
+        "points": false,
+        "lines": true,
+        "dragMode": "NONE"
+      },
+      {
+        "type": "expression",
+        "id": "380",
+        "folderId": "273",
+        "color": "#388c46",
+        "latex": "\\frac{r_{y}}{\\pi}",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "282",
+        "folderId": "273",
+        "color": "#000000",
+        "latex": "c_{amtx}=0.467",
+        "hidden": true,
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "1" }
+      },
+      {
+        "type": "expression",
+        "id": "283",
+        "folderId": "273",
+        "color": "#c74440",
+        "latex": "c_{amty}=1",
+        "hidden": true,
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "1" }
+      },
+      {
+        "type": "expression",
+        "id": "348",
+        "folderId": "273",
+        "color": "#2d70b3",
+        "latex": "c_{amtz}=0.53",
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "1" }
+      },
+      { "type": "folder", "id": "346", "title": "persp transform", "collapsed": true },
+      {
+        "type": "expression",
+        "id": "213",
+        "folderId": "346",
+        "color": "#388c46",
+        "latex": "p_{erspx}\\left(c_{oor}\\right)=\\frac{c_{oor}\\left[1\\right]c_{n}}{v_{x}c_{oor}\\left[3\\right]}+s_{crnx1}+0.5s_{crnx2}"
+      },
+      {
+        "type": "expression",
+        "id": "221",
+        "folderId": "346",
+        "color": "#000000",
+        "latex": "p_{erspy}\\left(c_{oor}\\right)=\\frac{c_{oor}\\left[2\\right]c_{n}}{v_{y}c_{oor}\\left[3\\right]}+s_{crny1}-0.5s_{crny2}"
+      },
+      {
+        "type": "expression",
+        "id": "222",
+        "folderId": "346",
+        "color": "#c74440",
+        "latex": "p_{erspz}\\left(c_{oor}\\right)=\\frac{c_{f}\\left(1-\\frac{c_{n}}{c_{oor}\\left[3\\right]}\\right)}{c_{f}-c_{n}}"
+      },
+      {
+        "type": "expression",
+        "id": "194",
+        "color": "#000000",
+        "latex": "\\operatorname{polygon}\\left(\\left(\\left(p_{nts}\\right)\\left(s_{crny2}\\right)+o_{fst}+\\left(\\left(0.5\\right)s_{crnx2},-\\frac{s_{crny2}}{2}\\right)\\right)\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "193",
+        "color": "#6042a6",
+        "latex": "p_{nts}=\\left[\\left(0,0\\right),\\left(0.5,0\\right),\\left(0,0.5\\right)\\right]",
+        "hidden": true
+      },
+      { "type": "folder", "id": "216", "title": "near far plane", "collapsed": true },
+      {
+        "type": "expression",
+        "id": "217",
+        "folderId": "216",
+        "color": "#c74440",
+        "latex": "c_{f}=29.5",
+        "slider": { "hardMin": true, "hardMax": true, "min": "c_{n}", "max": "100" }
+      },
+      {
+        "type": "expression",
+        "id": "218",
+        "folderId": "216",
+        "color": "#2d70b3",
+        "latex": "c_{n}=16",
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "100" }
+      },
+      {
+        "type": "expression",
+        "id": "195",
+        "color": "#c74440",
+        "latex": "o_{fst}=\\left[\\left(s_{crnx1},s_{crny1}\\right)\\ \\operatorname{for}\\ i=\\left[0...\\operatorname{length}\\left(p_{nts}\\right)\\right]\\right]",
+        "hidden": true,
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "196",
+        "color": "#2d70b3",
+        "latex": "s_{cl}=\\left|\\frac{s_{crnx2}}{s_{crnx1}}\\right|",
+        "hidden": true
+      },
+      { "type": "expression", "id": "197", "color": "#388c46", "latex": "s_{crnx2}-s_{crnx1}" },
+      {
+        "type": "expression",
+        "id": "211",
+        "color": "#c74440",
+        "latex": "a_{angx}=2\\pi\\left(c_{amx}-0.5\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "212",
+        "color": "#2d70b3",
+        "latex": "a_{angy}=2\\pi\\left(c_{amy}-0.5\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "219",
+        "color": "#388c46",
+        "latex": "p_{erspz}\\left(t_{rs}\\left(a_{1}\\right)\\right)",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "245",
+        "color": "#388c46",
+        "latex": "v_{x}=\\frac{10}{s_{crnx2}}+0\\left(0.5\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "246",
+        "color": "#6042a6",
+        "latex": "v_{y}=\\frac{10}{s_{crnx2}}+0\\left(0.5\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "230",
+        "color": "#6042a6",
+        "latex": "a=4.58",
+        "hidden": true,
+        "slider": {
+          "hardMin": true,
+          "hardMax": true,
+          "loopMode": "LOOP_FORWARD",
+          "min": "0",
+          "max": "2\\pi"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "231",
+        "color": "#000000",
+        "latex": "b=0.155",
+        "hidden": true,
+        "slider": {
+          "hardMin": true,
+          "hardMax": true,
+          "loopMode": "LOOP_FORWARD",
+          "min": "0",
+          "max": "1"
+        }
+      },
+      { "type": "folder", "id": "233", "hidden": true, "collapsed": true },
+      {
+        "type": "expression",
+        "id": "223",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{pnt1}=\\left[-1,-1,-1\\right]",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "335",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{estpnt}=t_{rs}\\left(t_{pnt1}\\right)",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "228",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{pnt2}=\\left[-1,-1,1\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "336",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{estpnt2}=t_{rs}\\left(t_{pnt2}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "229",
+        "folderId": "233",
+        "color": "#388c46",
+        "latex": "t_{pnt3}=\\left[1,-1,1\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "337",
+        "folderId": "233",
+        "color": "#388c46",
+        "latex": "t_{estpnt3}=t_{rs}\\left(t_{pnt3}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "234",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{pnt4}=\\left[1,-1,-1\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "338",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{estpnt4}=t_{rs}\\left(t_{pnt4}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "238",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{pnt5}=\\left[-1,1,-1\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "339",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{estpnt5}=t_{rs}\\left(t_{pnt5}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "237",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{pnt6}=\\left[-1,1,1\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "340",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{estpnt6}=t_{rs}\\left(t_{pnt6}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "236",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{pnt7}=\\left[1,1,1\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "341",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{estpnt7}=t_{rs}\\left(t_{pnt7}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "235",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{pnt8}=\\left[1,1,-1\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "342",
+        "folderId": "233",
+        "color": "#2d70b3",
+        "latex": "t_{estpnt8}=t_{rs}\\left(t_{pnt8}\\right)"
+      },
+      { "type": "folder", "id": "355", "title": "face normal", "collapsed": true },
+      {
+        "type": "expression",
+        "id": "359",
+        "folderId": "355",
+        "color": "#2d70b3",
+        "latex": "f_{norm1}=c_{rossp}\\left(v_{ec}\\left(t_{pnt4},t_{pnt3}\\right),v_{ec}\\left(t_{pnt4},t_{pnt1}\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "370",
+        "folderId": "355",
+        "color": "#000000",
+        "latex": "f_{norm1}\\left[2\\right]"
+      },
+      { "type": "folder", "id": "360", "title": "cube pnt", "hidden": true, "collapsed": true },
+      {
+        "type": "expression",
+        "id": "362",
+        "folderId": "360",
+        "color": "#2d70b3",
+        "latex": "\\left(p_{erspx}\\left(t_{estpnt}\\right),p_{erspy}\\left(t_{estpnt}\\right)\\right)",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "363",
+        "folderId": "360",
+        "color": "#6042a6",
+        "latex": "\\left(p_{erspx}\\left(t_{estpnt2}\\right),p_{erspy}\\left(t_{estpnt2}\\right)\\right)",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "368",
+        "folderId": "360",
+        "color": "#6042a6",
+        "latex": "\\left(p_{erspx}\\left(t_{estpnt3}\\right),p_{erspy}\\left(t_{estpnt3}\\right)\\right)",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "367",
+        "folderId": "360",
+        "color": "#6042a6",
+        "latex": "\\left(p_{erspx}\\left(t_{estpnt4}\\right),p_{erspy}\\left(t_{estpnt4}\\right)\\right)",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "366",
+        "folderId": "360",
+        "color": "#c74440",
+        "latex": "\\left(p_{erspx}\\left(t_{estpnt5}\\right),p_{erspy}\\left(t_{estpnt5}\\right)\\right)",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "365",
+        "folderId": "360",
+        "color": "#fa7e19",
+        "latex": "\\left(p_{erspx}\\left(t_{estpnt6}\\right),p_{erspy}\\left(t_{estpnt6}\\right)\\right)",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "364",
+        "folderId": "360",
+        "color": "#fa7e19",
+        "latex": "\\left(p_{erspx}\\left(t_{estpnt7}\\right),p_{erspy}\\left(t_{estpnt7}\\right)\\right)",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "369",
+        "folderId": "360",
+        "color": "#fa7e19",
+        "latex": "\\left(p_{erspx}\\left(t_{estpnt8}\\right),p_{erspy}\\left(t_{estpnt8}\\right)\\right)",
+        "labelSize": "1"
+      },
+      { "type": "folder", "id": "294", "title": "cube", "collapsed": true },
+      {
+        "type": "expression",
+        "id": "224",
+        "folderId": "294",
+        "color": "#388c46",
+        "latex": "\\operatorname{polygon}\\left(\\left(p_{erspx}\\left(\\left(t_{estpnt}\\right)\\right),p_{erspy}\\left(t_{estpnt}\\right)\\right),\\left(p_{erspx}\\left(\\left(t_{estpnt2}\\right)\\right),p_{erspy}\\left(t_{estpnt2}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt3}\\right),p_{erspy}\\left(t_{estpnt3}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt4}\\right),p_{erspy}\\left(t_{estpnt4}\\right)\\right)\\right)",
+        "lines": true,
+        "fillOpacity": "b\\left(1-\\max\\left(p_{erspz}\\left(\\frac{\\left(t_{estpnt}+t_{estpnt}\\right)}{2}\\right),0\\right)\\right)",
+        "lineOpacity": "b\\left(1-\\max\\left(p_{erspz}\\left(\\frac{\\left(t_{estpnt}+t_{estpnt}\\right)}{2}\\right),0\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "232",
+        "folderId": "294",
+        "color": "#c74440",
+        "latex": "\\operatorname{polygon}\\left(\\left(p_{erspx}\\left(t_{estpnt4}\\right),p_{erspy}\\left(t_{estpnt4}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt8}\\right),p_{erspy}\\left(t_{estpnt8}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt7}\\right),p_{erspy}\\left(t_{estpnt7}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt3}\\right),p_{erspy}\\left(t_{estpnt3}\\right)\\right)\\right)",
+        "fillOpacity": "b\\left(1-\\max\\left(p_{erspz}\\left(\\frac{\\left(t_{estpnt4}+t_{estpnt7}\\right)}{2}\\right),0\\right)\\right)",
+        "lineOpacity": "b\\left(1-\\max\\left(p_{erspz}\\left(\\frac{\\left(t_{estpnt4}+t_{estpnt7}\\right)}{2}\\right),0\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "239",
+        "folderId": "294",
+        "color": "#388c46",
+        "latex": "\\operatorname{polygon}\\left(\\left(p_{erspx}\\left(t_{estpnt5}\\right),p_{erspy}\\left(t_{estpnt5}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt6}\\right),p_{erspy}\\left(t_{estpnt6}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt7}\\right),p_{erspy}\\left(t_{estpnt7}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt8}\\right),p_{erspy}\\left(t_{estpnt8}\\right)\\right)\\right)",
+        "fillOpacity": "b\\left(1-\\max\\left(p_{erspz}\\left(\\frac{\\left(t_{estpnt5}+t_{estpnt7}\\right)}{2}\\right),0\\right)\\right)",
+        "lineOpacity": "b\\left(1-\\max\\left(p_{erspz}\\left(\\frac{\\left(t_{estpnt5}+t_{estpnt7}\\right)}{2}\\right),0\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "242",
+        "folderId": "294",
+        "color": "#c74440",
+        "latex": "\\operatorname{polygon}\\left(\\left(p_{erspx}\\left(t_{estpnt}\\right),p_{erspy}\\left(t_{estpnt}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt5}\\right),p_{erspy}\\left(t_{estpnt5}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt6}\\right),p_{erspy}\\left(t_{estpnt6}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt2}\\right),p_{erspy}\\left(t_{estpnt2}\\right)\\right)\\right)",
+        "fillOpacity": "b\\left(1-\\max\\left(p_{erspz}\\left(\\frac{\\left(t_{estpnt}+t_{estpnt6}\\right)}{2}\\right),0\\right)\\right)",
+        "lineOpacity": "b\\left(1-\\max\\left(p_{erspz}\\left(\\frac{\\left(t_{estpnt}+t_{estpnt6}\\right)}{2}\\right),0\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "241",
+        "folderId": "294",
+        "color": "#2d70b3",
+        "latex": "\\operatorname{polygon}\\left(\\left(p_{erspx}\\left(t_{estpnt2}\\right),p_{erspy}\\left(t_{estpnt2}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt3}\\right),p_{erspy}\\left(t_{estpnt3}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt7}\\right),p_{erspy}\\left(t_{estpnt7}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt6}\\right),p_{erspy}\\left(t_{estpnt6}\\right)\\right)\\right)",
+        "fillOpacity": "b\\left(1-\\max\\left(p_{erspz}\\left(\\frac{\\left(t_{estpnt2}+t_{estpnt6}\\right)}{2}\\right),0\\right)\\right)",
+        "lineOpacity": "b\\left(1-\\max\\left(p_{erspz}\\left(\\frac{\\left(t_{estpnt2}+t_{estpnt6}\\right)}{2}\\right),0\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "240",
+        "folderId": "294",
+        "color": "#2d70b3",
+        "latex": "\\operatorname{polygon}\\left(\\left(p_{erspx}\\left(t_{estpnt}\\right),p_{erspy}\\left(t_{estpnt}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt5}\\right),p_{erspy}\\left(t_{estpnt5}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt8}\\right),p_{erspy}\\left(t_{estpnt8}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt4}\\right),p_{erspy}\\left(t_{estpnt4}\\right)\\right)\\right)",
+        "fillOpacity": "b\\left(1-\\max\\left(p_{erspz}\\left(\\frac{\\left(t_{estpnt}+t_{estpnt8}\\right)}{2}\\right),0\\right)\\right)",
+        "lineOpacity": "b\\left(1-\\max\\left(p_{erspz}\\left(\\frac{\\left(t_{estpnt}+t_{estpnt8}\\right)}{2}\\right),0\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "261",
+        "folderId": "294",
+        "color": "#388c46",
+        "latex": "p=\\left[\\operatorname{polygon}\\left(\\left(p_{erspx}\\left(t_{estpnt}\\right),p_{erspy}\\left(t_{estpnt}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt2}\\right),p_{erspy}\\left(t_{estpnt2}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt3}\\right),p_{erspy}\\left(t_{estpnt3}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt4}\\right),p_{erspy}\\left(t_{estpnt4}\\right)\\right)\\right),\\operatorname{polygon}\\left(\\left(p_{erspx}\\left(t_{estpnt4}\\right),p_{erspy}\\left(t_{estpnt4}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt8}\\right),p_{erspy}\\left(t_{estpnt8}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt7}\\right),p_{erspy}\\left(t_{estpnt7}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt3}\\right),p_{erspy}\\left(t_{estpnt3}\\right)\\right)\\right),\\operatorname{polygon}\\left(\\left(p_{erspx}\\left(t_{estpnt5}\\right),p_{erspy}\\left(t_{estpnt5}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt6}\\right),p_{erspy}\\left(t_{estpnt6}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt7}\\right),p_{erspy}\\left(t_{estpnt7}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt8}\\right),p_{erspy}\\left(t_{estpnt8}\\right)\\right)\\right),\\operatorname{polygon}\\left(\\left(p_{erspx}\\left(t_{estpnt}\\right),p_{erspy}\\left(t_{estpnt}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt5}\\right),p_{erspy}\\left(t_{estpnt5}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt6}\\right),p_{erspy}\\left(t_{estpnt6}\\right)\\right),\\left(p_{erspx}\\left(t_{estpnt2}\\right),p_{erspy}\\left(t_{estpnt2}\\right)\\right)\\right)\\right]",
+        "hidden": true,
+        "colorLatex": "c_{olo}",
+        "fillOpacity": "z_{dep}",
+        "lineOpacity": "z_{dep}"
+      },
+      {
+        "type": "expression",
+        "id": "375",
+        "color": "#388c46",
+        "latex": "d_{rwvc}\\left(v,c\\right)=\\left[\\left(p_{erspx}\\left(t_{rs}\\left(v+c\\right)\\right),p_{erspy}\\left(t_{rs}\\left(v+c\\right)\\right)\\right),\\left(p_{erspx}\\left(t_{rs}\\left(c\\right)\\right),p_{erspy}\\left(t_{rs}\\left(c\\right)\\right)\\right)\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "377",
+        "color": "#000000",
+        "latex": "d_{rwvc}\\left(f_{norm1},\\left[0,0-1,0\\right]\\right)",
+        "hidden": true,
+        "lines": true,
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "263",
+        "color": "#000000",
+        "latex": "z_{dep}=\\left[b\\left(1-p_{erspz}\\left(\\frac{\\left(t_{estpnt}+t_{estpnt}\\right)}{2}\\right)\\right),b\\left(1-p_{erspz}\\left(\\frac{\\left(t_{estpnt4}+t_{estpnt7}\\right)}{2}\\right)\\right),b\\left(1-p_{erspz}\\left(\\frac{\\left(t_{estpnt5}+t_{estpnt7}\\right)}{2}\\right)\\right),b\\left(1-p_{erspz}\\left(\\frac{\\left(t_{estpnt}+t_{estpnt6}\\right)}{2}\\right)\\right)\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "248",
+        "color": "#2d70b3",
+        "latex": "\\left(\\operatorname{polygon}\\left(\\left(1,1\\right),\\left(2,3\\right),\\left(0,2\\right),\\left(\\frac{0}{0},1\\right),\\left(6,3\\right),\\left(7,4\\right),\\left(9,3\\right)\\right)\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "262",
+        "color": "#6042a6",
+        "latex": "c_{olo}=\\operatorname{rgb}\\left(255\\cdot\\left[0,1,0,1\\right],255\\cdot\\left[1,0,1,0\\right],\\left[0,0,0,0\\right]\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "265",
+        "color": "#2d70b3",
+        "latex": "c_{rossp}\\left(v_{1},v_{2}\\right)=\\left[v_{1}\\left[2\\right]\\cdot v_{2}\\left[3\\right]-v_{1}\\left[3\\right]\\cdot v_{2}\\left[2\\right],-\\left(v_{1}\\left[1\\right]\\cdot v_{2}\\left[3\\right]-v_{1}\\left[3\\right]\\cdot v_{2}\\left[1\\right]\\right),v_{1}\\left[1\\right]\\cdot v_{2}\\left[2\\right]-v_{1}\\left[2\\right]\\cdot v_{2}\\left[1\\right]\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "293",
+        "color": "#c74440",
+        "latex": "c_{amo}=\\left(1+0n_{avtx2}\\right)\\left(\\left[\\left(8\\left(c_{amtx}-0.5\\right)\\right),-8\\left(c_{amty}-0.5\\right),-4\\left(c_{amtz}-0.5\\right)\\right]\\right)+\\left[0,0-0c_{n}-1,0.5\\right]"
+      },
+      { "type": "folder", "id": "344", "title": "points", "collapsed": true },
+      {
+        "type": "expression",
+        "id": "303",
+        "folderId": "344",
+        "color": "#6042a6",
+        "latex": "a_{0}=\\left[0,0,0\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "267",
+        "folderId": "344",
+        "color": "#6042a6",
+        "latex": "a_{1}=\\left[1,0,0\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "268",
+        "folderId": "344",
+        "color": "#000000",
+        "latex": "a_{2}=\\left[0,1,0\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "269",
+        "folderId": "344",
+        "color": "#c74440",
+        "latex": "a_{3}=\\left[c_{rossp}\\left(a_{1},a_{2}\\right)\\left[1\\right],c_{rossp}\\left(a_{1},a_{2}\\right)\\left[2\\right],c_{rossp}\\left(a_{1},a_{2}\\right)\\left[3\\right]\\right]",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "296",
+        "folderId": "344",
+        "color": "#388c46",
+        "latex": "a_{4}=\\left[0,0,1\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "305",
+        "folderId": "344",
+        "color": "#c74440",
+        "latex": "a_{5}=\\left[0,-02,2\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "270",
+        "color": "#c74440",
+        "latex": "\\left[\\left(p_{erspx}\\left(a_{1}\\right),p_{erspy}\\left(a_{1}-5\\left(\\left[c_{amtx},c_{amty},1\\right]2-1\\right)\\right)\\right),\\left(p_{erspx}\\left(a_{2}-5\\left(\\left[c_{amtx},c_{amty},1\\right]2-1\\right)\\right),p_{erspy}\\left(a_{2}-5\\left(\\left[c_{amtx},c_{amty},1\\right]2-1\\right)\\right)\\right),\\left(p_{erspx}\\left(c_{rossp}\\left(a_{1},a_{2}\\right)-5\\left(\\left[c_{amtx},c_{amty},1\\right]2-1\\right)\\right),p_{erspy}\\left(c_{rossp}\\left(a_{1},a_{2}\\right)-5\\left(\\left[c_{amtx},c_{amty},1\\right]2-1\\right)\\right)\\right)\\right]",
+        "hidden": true,
+        "lines": false,
+        "colorLatex": "c_{olo2}"
+      },
+      { "type": "folder", "id": "345", "title": "basis vec", "collapsed": true },
+      {
+        "type": "expression",
+        "id": "285",
+        "folderId": "345",
+        "color": "#388c46",
+        "latex": "p_{nt0}=\\left[p_{erspx}\\left(t_{rs}\\left(a_{0}\\right)\\right),p_{erspy}\\left(t_{rs}\\left(a_{0}\\right)\\right),p_{erspz}\\left(t_{rs}\\left(a_{0}\\right)\\right)\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "287",
+        "folderId": "345",
+        "color": "#000000",
+        "latex": "p_{nt1}=\\left[p_{erspx}\\left(t_{rs}\\left(a_{1}\\right)\\right),p_{erspy}\\left(t_{rs}\\left(a_{1}\\right)\\right),p_{erspz}\\left(t_{rs}\\left(a_{1}\\right)\\right)\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "288",
+        "folderId": "345",
+        "color": "#c74440",
+        "latex": "p_{nt2}=\\left[p_{erspx}\\left(t_{rs}\\left(a_{2}\\right)\\right),p_{erspy}\\left(t_{rs}\\left(a_{2}\\right)\\right),p_{erspz}\\left(t_{rs}\\left(a_{2}\\right)\\right)\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "290",
+        "folderId": "345",
+        "color": "#388c46",
+        "latex": "p_{nt3}=\\left[p_{erspx}\\left(t_{rs}\\left(a_{3}\\right)\\right),p_{erspy}\\left(t_{rs}\\left(a_{3}\\right)\\right),p_{erspz}\\left(t_{rs}\\left(a_{3}\\right)\\right)\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "295",
+        "folderId": "345",
+        "color": "#2d70b3",
+        "latex": "p_{nt4}=\\left[p_{erspx}\\left(t_{rs}\\left(a_{4}\\right)\\right),p_{erspy}\\left(t_{rs}\\left(a_{4}\\right)\\right),p_{erspz}\\left(t_{rs}\\left(a_{4}\\right)\\right)\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "306",
+        "folderId": "345",
+        "color": "#2d70b3",
+        "latex": "p_{nt5}=\\left[p_{erspx}\\left(t_{rs}\\left(a_{5}\\right)\\right),p_{erspy}\\left(t_{rs}\\left(a_{5}\\right)\\right),p_{erspz}\\left(t_{rs}\\left(a_{5}\\right)\\right)\\right]"
+      },
+      { "type": "folder", "id": "351", "title": "draw vec", "collapsed": true },
+      {
+        "type": "expression",
+        "id": "286",
+        "folderId": "351",
+        "color": "#c74440",
+        "latex": "\\left(\\left[p_{nt0}\\left[1\\right],p_{nt1}\\left[1\\right]\\right],\\left[p_{nt0}\\left[2\\right],p_{nt1}\\left[2\\right]\\right]\\right)",
+        "points": false,
+        "lines": true,
+        "dragMode": "NONE",
+        "labelSize": "1",
+        "lineOpacity": "1+0\\left\\{0<p_{nt1}\\left[3\\right]\\le1,0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "289",
+        "folderId": "351",
+        "color": "#388c46",
+        "latex": "\\left(\\left[p_{nt0}\\left[1\\right],p_{nt2}\\left[1\\right]\\right],\\left[p_{nt0}\\left[2\\right],p_{nt2}\\left[2\\right]\\right]\\right)",
+        "points": false,
+        "lines": true,
+        "dragMode": "NONE"
+      },
+      {
+        "type": "expression",
+        "id": "291",
+        "folderId": "351",
+        "color": "#388c46",
+        "latex": "\\left(\\left[p_{nt0}\\left[1\\right],p_{nt3}\\left[1\\right]\\right],\\left[p_{nt0}\\left[2\\right],p_{nt3}\\left[2\\right]\\right]\\right)",
+        "points": false,
+        "lines": true,
+        "dragMode": "NONE"
+      },
+      {
+        "type": "expression",
+        "id": "297",
+        "folderId": "351",
+        "color": "#2d70b3",
+        "latex": "\\left(\\left[p_{nt0}\\left[1\\right],p_{nt4}\\left[1\\right]\\right],\\left[p_{nt0}\\left[2\\right],p_{nt4}\\left[2\\right]\\right]\\right)",
+        "points": false,
+        "lines": true,
+        "dragMode": "NONE",
+        "pointSize": "5"
+      },
+      {
+        "type": "expression",
+        "id": "307",
+        "folderId": "351",
+        "color": "#388c46",
+        "latex": "\\left(\\left[p_{nt0}\\left[1\\right],p_{nt5}\\left[1\\right]\\right],\\left[p_{nt0}\\left[2\\right],p_{nt5}\\left[2\\right]\\right]\\right)",
+        "hidden": true,
+        "pointSize": "5"
+      },
+      {
+        "type": "expression",
+        "id": "352",
+        "color": "#c74440",
+        "latex": "r_{p}=2\\pi\\left(c_{amy}-0.5\\right)\\left(\\frac{1}{2}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "353",
+        "color": "#2d70b3",
+        "latex": "r_{y}=2\\pi\\left(c_{amx}-0.5\\right)\\left(\\frac{1}{1}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "302",
+        "color": "#388c46",
+        "latex": "t_{rs}\\left(v_{1}\\right)=\\left[r_{otatex}\\left(r_{otatez}\\left(\\left(v_{1}+-c_{amo}\\right),r_{y}\\ \\right),r_{p}\\right)\\left[1\\right],r_{otatex}\\left(r_{otatez}\\left(\\left(v_{1}+-c_{amo}\\right),r_{y}\\ \\right),r_{p}\\right)\\left[3\\right],r_{otatex}\\left(r_{otatez}\\left(\\left(v_{1}+-c_{amo}\\right),r_{y}\\ \\right),r_{p}\\right)\\left[2\\right]\\right]-0c_{amo}",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "328",
+        "color": "#388c46",
+        "latex": "t_{rsold3}\\left(v_{1}\\right)=\\left[\\cos\\left(2\\pi\\left(-2c_{amx}-1\\right)\\right)\\left(v_{1}\\left[1\\right]-c_{amo}\\left[1\\right]\\right)+\\sin\\left(2\\pi\\left(-2c_{amx}-1\\right)\\right)\\cos\\left(2\\pi\\left(2c_{amy}-1\\right)\\right)\\left(v_{1}\\left[2\\right]-c_{amo}\\left[2\\right]\\right)+\\sin\\left(2\\pi\\left(-2c_{amx}-1\\right)\\right)\\sin\\left(2\\pi\\left(2c_{amy}-1\\right)\\right)\\left(v_{1}\\left[3\\right]-c_{amo}\\left[3\\right]\\right),\\left(-\\sin\\left(2\\pi\\left(2c_{amy}-1\\right)\\right)\\left(v_{1}\\left[2\\right]-c_{amo}\\left[2\\right]\\right)+\\cos\\left(2\\pi\\left(2c_{amy}-1\\right)\\right)\\left(v_{1}\\left[3\\right]-c_{amo}\\left[3\\right]\\right)\\right),-\\sin\\left(2\\pi\\left(-2c_{amx}-1\\right)\\right)\\left(v_{1}\\left[1\\right]-c_{amo}\\left[1\\right]\\right)+\\cos\\left(2\\pi\\left(-2c_{amx}-1\\right)\\right)\\cos\\left(2\\pi\\left(2c_{amy}-1\\right)\\right)\\left(v_{1}\\left[2\\right]-c_{amo}\\left[2\\right]\\right)+\\cos\\left(2\\pi\\left(-2c_{amx}-1\\right)\\right)\\sin\\left(2\\pi\\left(2c_{amy}-1\\right)\\right)\\left(v_{1}\\left[3\\right]-c_{amo}\\left[3\\right]\\right)\\right]-0c_{amo}"
+      },
+      {
+        "type": "expression",
+        "id": "312",
+        "color": "#388c46",
+        "latex": "t_{rsold2}\\left(v_{1}\\right)=\\left[\\cos\\left(2\\pi\\left(-2c_{amx}-1\\right)\\right)\\left(v_{1}\\left[1\\right]-c_{amo}\\left[1\\right]\\right)+\\sin\\left(2\\pi\\left(-2c_{amx}-1\\right)\\right)\\left(v_{1}\\left[2\\right]-c_{amo}\\left[3\\right]\\right),-\\left(v_{1}\\left[3\\right]-c_{amo}\\left[2\\right]\\right),-\\sin\\left(2\\pi\\left(-2c_{amx}-1\\right)\\right)\\left(v_{1}\\left[1\\right]-c_{amo}\\left[1\\right]\\right)+\\cos\\left(2\\pi\\left(-2c_{amx}-1\\right)\\right)\\left(v_{1}\\left[2\\right]-c_{amo}\\left[3\\right]\\right)\\right]-0c_{amo}"
+      },
+      {
+        "type": "expression",
+        "id": "308",
+        "color": "#6042a6",
+        "latex": "t_{rsold}\\left(v_{1}\\right)=\\left[-\\left(v_{1}\\left[1\\right]\\right),-\\left(v_{1}\\left[3\\right]\\right),-v_{1}\\left[2\\right]\\right]-c_{amo}"
+      },
+      {
+        "type": "expression",
+        "id": "292",
+        "color": "#000000",
+        "latex": "\\left(p_{nt0}\\left[1\\right],p_{nt0}\\left[2\\right]\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "284",
+        "color": "#2d70b3",
+        "latex": "c_{olo2}=\\operatorname{hsv}\\left(\\left[0...8\\right]45,1,1\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "319",
+        "color": "#000000",
+        "latex": "c_{amx}\\to0.5,c_{amy}\\to0.5"
+      },
+      {
+        "type": "expression",
+        "id": "320",
+        "color": "#c74440",
+        "latex": "c_{amtx}\\to0.5,c_{amty}\\to0.5,c_{amtz}\\to0.5"
+      },
+      {
+        "type": "expression",
+        "id": "321",
+        "color": "#2d70b3",
+        "latex": "r_{otatex}\\left(v,\\theta\\right)=\\left[v\\left[1\\right],\\cos\\left(\\theta\\right)\\left(v\\left[2\\right]\\right)-\\sin\\left(\\theta\\right)\\left(v\\left[3\\right]\\right),\\sin\\left(\\theta\\right)\\left(v\\left[2\\right]\\right)+\\cos\\left(\\theta\\right)\\left(v\\left[3\\right]\\right)\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "325",
+        "color": "#c74440",
+        "latex": "r_{otatey}\\left(v,\\theta\\right)=\\left[\\cos\\left(\\theta\\right)\\left(v\\left[1\\right]\\right)+\\sin\\left(\\theta\\right)\\left(v\\left[3\\right]\\right),v\\left[2\\right],-\\sin\\left(\\theta\\right)\\left(v\\left[1\\right]\\right)+\\cos\\left(\\theta\\right)\\left(v\\left[3\\right]\\right)\\right]",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "326",
+        "color": "#2d70b3",
+        "latex": "r_{otatez}\\left(v,\\theta\\right)=\\left[\\cos\\left(\\theta\\right)\\left(v\\left[1\\right]\\right)-\\sin\\left(\\theta\\right)\\left(v\\left[2\\right]\\right),\\sin\\left(\\theta\\right)\\left(v\\left[1\\right]\\right)+\\cos\\left(\\theta\\right)\\left(v\\left[2\\right]\\right),v\\left[3\\right]\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "357",
+        "color": "#000000",
+        "latex": "v_{ec}\\left(v_{1},v_{2}\\right)=v_{2}-v_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "358",
+        "color": "#c74440",
+        "latex": "m_{agn}\\left(v\\right)=\\left(v\\left[1\\right]^{2}+v\\left[2\\right]^{2}+v\\left[3\\right]^{2}\\right)^{\\frac{1}{2}}",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "323",
+        "color": "#6042a6",
+        "latex": "t_{he}=0.4",
+        "hidden": true,
+        "slider": { "hardMin": true, "min": "0" }
+      },
+      {
+        "type": "expression",
+        "id": "381",
+        "color": "#c74440",
+        "latex": "t_{estpntrot}=\\left[1,0,0\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "388",
+        "color": "#c74440",
+        "latex": "t_{estpntrot2}=\\left[0,1,0\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "389",
+        "color": "#2d70b3",
+        "latex": "t_{estpntrot3}=\\left[0,0,1\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "398",
+        "color": "#c74440",
+        "latex": "r_{otquat}\\left(v_{1},v_{2},v_{3},v_{4}\\right)=r_{otatez}\\left(r_{otatey}\\left(r_{otatex}\\left(r_{otatey}\\left(r_{otatez}\\left(v_{1},-v_{2}\\right),-v_{3}\\right),v_{4}\\right),v_{3}\\right),v_{2}\\right)",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "422",
+        "color": "#c74440",
+        "latex": "r_{otyzx}\\left(v_{1},v_{2},v_{3},v_{4}\\right)=r_{otatey}\\left(r_{otatez}\\left(r_{otatex}\\left(v_{1},v_{2}\\right),v_{3}\\right),v_{4}\\right)",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "387",
+        "color": "#000000",
+        "latex": "t_{estquat}\\left(v\\right)=r_{otquat}\\left(t_{estpntrot},r_{y1},r_{z1},r_{x1}\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "390",
+        "color": "#388c46",
+        "latex": "t_{estquat2}\\left(v\\right)=r_{otatey}\\left(r_{otatez}\\left(r_{otatex}\\left(r_{otatez}\\left(r_{otatey}\\left(t_{estpntrot2},r_{y1}\\right),r_{z1}\\right),v\\right),-r_{z1}\\right),-r_{y1}\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "391",
+        "color": "#6042a6",
+        "latex": "t_{estquat3}\\left(v\\right)=r_{otatey}\\left(r_{otatez}\\left(r_{otatex}\\left(r_{otatez}\\left(r_{otatey}\\left(t_{estpntrot3},r_{y1}\\right),r_{z1}\\right),v\\right),-r_{z1}\\right),-r_{y1}\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "382",
+        "color": "#2d70b3",
+        "latex": "\\left[\\left(p_{nt0}\\left[1\\right],p_{nt0}\\left[2\\right]\\right),\\left(p_{erspx}\\left(t_{rs}\\left(t_{quatvec}\\right)\\right),p_{erspy}\\left(t_{rs}\\left(t_{quatvec}\\right)\\right)\\right)\\right]",
+        "hidden": true,
+        "lines": true,
+        "lineOpacity": "0.5",
+        "lineWidth": "1"
+      },
+      {
+        "type": "expression",
+        "id": "383",
+        "color": "#388c46",
+        "latex": "r_{x1}=0",
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "2\\pi" }
+      },
+      {
+        "type": "expression",
+        "id": "385",
+        "color": "#388c46",
+        "latex": "r_{y1}=0.5",
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "2\\pi" }
+      },
+      {
+        "type": "expression",
+        "id": "384",
+        "color": "#388c46",
+        "latex": "r_{z1}=1.83",
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "2\\pi" }
+      },
+      { "type": "expression", "id": "404", "color": "#2d70b3" },
+      {
+        "type": "expression",
+        "id": "386",
+        "color": "#6042a6",
+        "latex": "t_{quatvec}=r_{otatez}\\left(r_{otatey}\\left(\\left[1,0,0\\right],r_{y1}\\right),r_{z1}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "424",
+        "color": "#388c46",
+        "latex": "\\left[\\left(p_{nt0}\\left[1\\right],p_{nt0}\\left[2\\right]\\right),\\left(p_{erspx}\\left(t_{rs}\\left(r_{otquat}\\left(t_{estpntrot},r_{z1},r_{y1},r_{x1}\\right)\\right)\\right),p_{erspy}\\left(t_{rs}\\left(r_{otquat}\\left(t_{estpntrot},r_{z1},r_{y1},r_{x1}\\right)\\right)\\right)\\right)\\right]",
+        "lines": true,
+        "lineOpacity": "0.4",
+        "lineWidth": "2"
+      },
+      {
+        "type": "expression",
+        "id": "392",
+        "color": "#000000",
+        "latex": "\\left[\\left(p_{nt0}\\left[1\\right],p_{nt0}\\left[2\\right]\\right),\\left(p_{erspx}\\left(t_{rs}\\left(r_{otquat}\\left(t_{estpntrot},r_{y1},r_{z1},r_{x1}\\right)\\right)\\right),p_{erspy}\\left(t_{rs}\\left(r_{otquat}\\left(t_{estpntrot2},r_{z1},r_{y1},r_{x1}\\right)\\right)\\right)\\right)\\right]",
+        "hidden": true,
+        "lines": true,
+        "lineOpacity": "0.5"
+      },
+      {
+        "type": "expression",
+        "id": "393",
+        "color": "#fa7e19",
+        "latex": "\\left[\\left(p_{nt0}\\left[1\\right],p_{nt0}\\left[2\\right]\\right),\\left(p_{erspx}\\left(t_{rs}\\left(r_{otquat}\\left(t_{estpntrot},r_{y1},r_{z1},r_{x1}\\right)\\right)\\right),p_{erspy}\\left(t_{rs}\\left(r_{otquat}\\left(t_{estpntrot3},r_{z1},r_{y1},r_{x1}\\right)\\right)\\right)\\right)\\right]",
+        "hidden": true,
+        "lines": true,
+        "lineOpacity": "0.5"
+      },
+      {
+        "type": "expression",
+        "id": "394",
+        "color": "#6042a6",
+        "latex": "\\left(p_{erspx}\\left(t_{rs}\\left(r_{otquat}\\left(t_{estpntrot},r_{z1},r_{y1},t\\right)\\right)\\right),p_{erspy}\\left(t_{rs}\\left(r_{otquat}\\left(t_{estpntrot},r_{z1},r_{y1},t\\right)\\right)\\right)\\right)",
+        "hidden": true,
+        "fill": true,
+        "parametricDomain": { "min": "", "max": "30" },
+        "fillOpacity": "0.05",
+        "lineOpacity": "0.2",
+        "domain": { "min": "0", "max": "30" }
+      },
+      {
+        "type": "expression",
+        "id": "397",
+        "color": "#000000",
+        "latex": "\\left(p_{erspx}\\left(t_{rs}\\left(r_{otquat}\\left(t_{estpntrot2},r_{z1},r_{y1},t\\right)\\right)\\right),p_{erspy}\\left(t_{rs}\\left(r_{otquat}\\left(t_{estpntrot2},r_{z1},r_{y1},t\\right)\\right)\\right)\\right)",
+        "hidden": true,
+        "fill": true,
+        "parametricDomain": { "min": "", "max": "30" },
+        "fillOpacity": "0.05",
+        "lineOpacity": "0.2",
+        "domain": { "min": "0", "max": "30" }
+      },
+      {
+        "type": "expression",
+        "id": "396",
+        "color": "#fa7e19",
+        "latex": "\\left(p_{erspx}\\left(t_{rs}\\left(r_{otquat}\\left(t_{estpntrot3},r_{z1},r_{y1},t\\right)\\right)\\right),p_{erspy}\\left(t_{rs}\\left(r_{otquat}\\left(t_{estpntrot3},r_{z1},r_{y1},t\\right)\\right)\\right)\\right)",
+        "hidden": true,
+        "fill": true,
+        "parametricDomain": { "min": "", "max": "30" },
+        "fillOpacity": "0.05",
+        "lineOpacity": "0.2",
+        "domain": { "min": "0", "max": "30" }
+      },
+      { "type": "expression", "id": "403", "color": "#c74440" },
+      { "type": "folder", "id": "405", "title": "r2", "collapsed": true },
+      {
+        "type": "expression",
+        "id": "407",
+        "folderId": "405",
+        "color": "#6042a6",
+        "latex": "r_{x2}=r_{x1}",
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "2\\pi" }
+      },
+      {
+        "type": "expression",
+        "id": "413",
+        "folderId": "405",
+        "color": "#6042a6",
+        "latex": "r_{y2}=r_{z1}",
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "2\\pi" }
+      },
+      {
+        "type": "expression",
+        "id": "412",
+        "folderId": "405",
+        "color": "#6042a6",
+        "latex": "r_{z2}=r_{y1}",
+        "slider": { "hardMin": true, "hardMax": true, "min": "0", "max": "2\\pi" }
+      },
+      { "type": "expression", "id": "423", "folderId": "405", "color": "#2d70b3" },
+      { "type": "folder", "id": "408", "title": "cossinsinscoso", "collapsed": true },
+      {
+        "type": "expression",
+        "id": "406",
+        "folderId": "408",
+        "color": "#388c46",
+        "latex": "c\\left(v\\right)=\\cos\\left(v\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "414",
+        "folderId": "408",
+        "color": "#2d70b3",
+        "latex": "s\\left(v\\right)=\\sin\\left(v\\right)",
+        "hidden": true
+      },
+      { "type": "expression", "id": "409", "folderId": "408", "color": "#6042a6" },
+      {
+        "type": "expression",
+        "id": "419",
+        "color": "#6042a6",
+        "latex": "r_{x3}\\left(v_{1},v_{2},v_{3}\\right)=\\arctan(-c(v_{2})s(v_{1})c(v_{3})-c(v_{1})s(v_{2})s(v_{3})+s(v_{2})c(v_{2})s(v_{3}))/(c(v_{3})(c(v_{1})c(v_{3})-s(v_{1})s(v_{2})s(v_{3}))+s(v_{3})(s(v_{2})(s(v_{1})c(v_{3})+c(v_{1})s(v_{2})s(v_{3}))+c(v_{2})c(v_{2})s(v_{3})))"
+      },
+      {
+        "type": "expression",
+        "id": "420",
+        "color": "#000000",
+        "latex": "r_{y3}\\left(v_{1},v_{2},v_{3}\\right)=\\arctan(c(v_{2})(c(v_{1})s(v_{2})c(v_{3})-s(v_{1})s(v_{3})-s(v_{2})c(v_{3}))/(c(v_{3})(s(v_{2})(c(v_{1})s(v_{2})c(v_{3})-s(v_{1})s(v_{3}))+c(v_{2})c(v_{2})c(v_{3}))+s(v_{3})(s(v_{1})s(v_{2})c(v_{3})+c(v_{1})s(v_{3}))))",
+        "labelSize": "1"
+      },
+      {
+        "type": "expression",
+        "id": "421",
+        "color": "#c74440",
+        "latex": "r_{z3}\\left(v_{1},v_{2},v_{3}\\right)=\\arcsin(-c(v_{3})(s(v_{2})(s(v_{1})c(v_{3})+c(v_{1})s(v_{2})s(v_{3}))+c(v_{2})c(v_{2})s(v_{3}))+s(v_{3})(c(v_{1})c(v_{3})-s(v_{1})s(v_{2})s(v_{3})))"
+      },
+      {
+        "type": "expression",
+        "id": "378",
+        "color": "#6042a6",
+        "latex": "\\left[\\left(p_{nt0}\\left[1\\right],p_{nt0}\\left[2\\right]\\right),\\left(p_{erspx}\\left(t_{rs}\\left(r_{otyzx}\\left(t_{estpntrot},r_{y3}\\left(r_{x2},r_{y2},r_{z2}\\right),r_{z3}\\left(r_{x2},r_{y2},r_{z2}\\right),r_{x3}\\left(r_{x2},r_{y2},r_{z2}\\right)\\right)\\right)\\right),p_{erspy}\\left(t_{rs}\\left(r_{otyzx}\\left(t_{estpntrot},r_{y3}\\left(r_{x2},r_{y2},r_{z2}\\right),r_{z3}\\left(r_{x2},r_{y2},r_{z2}\\right),r_{x3}\\left(r_{x2},r_{y2},r_{z2}\\right)\\right)\\right)\\right)\\right)\\right]",
+        "hidden": true,
+        "lines": true,
+        "lineOpacity": "0.4",
+        "lineWidth": "2"
+      },
+      {
+        "type": "expression",
+        "id": "425",
+        "color": "#6042a6",
+        "latex": "\\left[\\left(p_{nt0}\\left[1\\right],p_{nt0}\\left[2\\right]\\right),\\left(p_{erspx}\\left(t_{rs}\\left(r_{otyzx}\\left(t_{estpntrot},r_{y3}\\left(r_{x2},r_{y2},t\\right),r_{z3}\\left(r_{x2},r_{y2},t\\right),r_{x3}\\left(r_{x2},r_{y2},t\\right)\\right)\\right)\\right),p_{erspy}\\left(t_{rs}\\left(r_{otyzx}\\left(t_{estpntrot},r_{y3}\\left(r_{x2},r_{y2},t\\right),r_{z3}\\left(r_{x2},r_{y2},t\\right),r_{x3}\\left(r_{x2},r_{y2},t\\right)\\right)\\right)\\right)\\right)\\right]",
+        "hidden": true,
+        "lines": true,
+        "parametricDomain": { "min": "", "max": "2\\pi" },
+        "lineOpacity": "0.4",
+        "lineWidth": "2",
+        "domain": { "min": "0", "max": "2\\pi" }
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true
+}
