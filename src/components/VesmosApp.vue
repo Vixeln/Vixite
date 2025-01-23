@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import { computed, onMounted, ref, useTemplateRef, watch } from 'vue'
 import data, { calculatorTypes, type CalculatorType } from '@/vesmos/data.ts'
+import { mediaDarkScheme } from '@/utils/utils'
 
 import { loadScript } from 'vue-plugin-load-script'
 import type {
@@ -15,7 +16,7 @@ declare let Desmos: undefined | DesmosAPI
 const desmosConstructorOptions = {
   expressions: false,
   pasteGraphLink: true,
-  invertedColors: true,
+  invertedColors: mediaDarkScheme.matches,
   settingsMenu: false,
   zoomButtons: false,
 }
