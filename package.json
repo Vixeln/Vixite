@@ -15,7 +15,8 @@
   "dependencies": {
     "@types/json-schema": "^7.0.15",
     "vue": "^3.5.13",
-    "vue-plugin-load-script": "^2.1.1"
+    "vue-plugin-load-script": "^2.1.1",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
