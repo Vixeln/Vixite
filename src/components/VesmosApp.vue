@@ -4,12 +4,7 @@ import data, { calculatorTypes, type CalculatorType } from '@/vesmos/data.ts'
 import { mediaDarkScheme } from '@/utils/utils'
 
 import { loadScript } from 'vue-plugin-load-script'
-import type {
-  Calculator,
-  Constructor,
-  DesmosAPI,
-  GraphingCalculator,
-} from '@/vesmos/desmos/desmos.d'
+import type { Calculator, Constructor, DesmosAPI, GraphingCalculator } from '@/../@types/desmos.d.ts'
 
 declare let Desmos: undefined | DesmosAPI
 

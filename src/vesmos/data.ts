@@ -1,6 +1,6 @@
 // import type { GraphingCalculatorState } from "./desmos/desmos"
 import type * as Schema from "json-schema"
-import type { CalculatorState } from "./desmos/desmos"
+import type { CalculatorState } from "@/../@types/desmos"
 
 import pendulumState from "@/data/desmosGraphs/pendulum.json" with {type: "json"}
 import threeDRendererState from "@/data/desmosGraphs/threeDRenderer.json" with {type: "json"}
