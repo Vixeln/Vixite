@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import NavBar from "./components/NavBar.vue";
+</script>
 
 <template>
 	<header>
@@ -6,6 +8,7 @@
 			<h1>Vixite</h1>
 			<p>Vireak's Vue Vebsite</p>
 		</hgroup>
+		<NavBar></NavBar>
 	</header>
 
 	<main>
